@@ -14,8 +14,8 @@ class Ideone
 		n=in.nextInt();
 		while(n!=0)
 		{
-			n /=10;
-			++c;
+			n =n/10;
+			c++;
 		}
 		System.out.println(+c);
 		}
